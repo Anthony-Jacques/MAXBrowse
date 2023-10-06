@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MAXBrowse", "ServerBrowser.vcxproj", "{6ABF523C-EF58-405E-9814-A69616320470}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MAXBrowse Installer", "Installer.vdproj", "{F7EB8F6F-F5CA-475D-BF59-3677F1A0EF8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ABF523C-EF58-405E-9814-A69616320470}.Debug|x86.ActiveCfg = Debug|Win32
+		{6ABF523C-EF58-405E-9814-A69616320470}.Debug|x86.Build.0 = Debug|Win32
+		{6ABF523C-EF58-405E-9814-A69616320470}.Release|x86.ActiveCfg = Release|Win32
+		{6ABF523C-EF58-405E-9814-A69616320470}.Release|x86.Build.0 = Release|Win32
+		{F7EB8F6F-F5CA-475D-BF59-3677F1A0EF8C}.Debug|x86.ActiveCfg = Debug
+		{F7EB8F6F-F5CA-475D-BF59-3677F1A0EF8C}.Release|x86.ActiveCfg = Release
+		{F7EB8F6F-F5CA-475D-BF59-3677F1A0EF8C}.Release|x86.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F4330DE-6CF3-4E7A-BE9E-12602AD90214}
+	EndGlobalSection
+EndGlobal

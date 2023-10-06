@@ -1,0 +1,1189 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ServerBrowser.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_FLAG1               BITMAP                  "res\\flags\\ad.bmp"
+
+IDR_FLAG2               BITMAP                  "res\\flags\\ae.bmp"
+
+IDR_FLAG3               BITMAP                  "res\\flags\\ag.bmp"
+
+IDR_FLAG4               BITMAP                  "res\\flags\\ai.bmp"
+
+IDR_FLAG5               BITMAP                  "res\\flags\\al.bmp"
+
+IDR_FLAG6               BITMAP                  "res\\flags\\am.bmp"
+
+IDR_FLAG7               BITMAP                  "res\\flags\\an.bmp"
+
+IDR_FLAG8               BITMAP                  "res\\flags\\ao.bmp"
+
+IDR_FLAG9               BITMAP                  "res\\flags\\ar.bmp"
+
+IDR_FLAG10              BITMAP                  "res\\flags\\as.bmp"
+
+IDR_FLAG11              BITMAP                  "res\\flags\\at.bmp"
+
+IDR_FLAG12              BITMAP                  "res\\flags\\au.bmp"
+
+IDR_FLAG13              BITMAP                  "res\\flags\\aw.bmp"
+
+IDR_FLAG14              BITMAP                  "res\\flags\\az.bmp"
+
+IDR_FLAG15              BITMAP                  "res\\flags\\ba.bmp"
+
+IDR_FLAG16              BITMAP                  "res\\flags\\bb.bmp"
+
+IDR_FLAG17              BITMAP                  "res\\flags\\bd.bmp"
+
+IDR_FLAG18              BITMAP                  "res\\flags\\be.bmp"
+
+IDR_FLAG19              BITMAP                  "res\\flags\\bf.bmp"
+
+IDR_FLAG20              BITMAP                  "res\\flags\\bg.bmp"
+
+IDR_FLAG21              BITMAP                  "res\\flags\\bh.bmp"
+
+IDR_FLAG22              BITMAP                  "res\\flags\\bi.bmp"
+
+IDR_FLAG23              BITMAP                  "res\\flags\\bj.bmp"
+
+IDR_FLAG24              BITMAP                  "res\\flags\\bm.bmp"
+
+IDR_FLAG25              BITMAP                  "res\\flags\\bn.bmp"
+
+IDR_FLAG26              BITMAP                  "res\\flags\\bo.bmp"
+
+IDR_FLAG27              BITMAP                  "res\\flags\\br.bmp"
+
+IDR_FLAG28              BITMAP                  "res\\flags\\bs.bmp"
+
+IDR_FLAG29              BITMAP                  "res\\flags\\bt.bmp"
+
+IDR_FLAG30              BITMAP                  "res\\flags\\bw.bmp"
+
+IDR_FLAG31              BITMAP                  "res\\flags\\by.bmp"
+
+IDR_FLAG32              BITMAP                  "res\\flags\\bz.bmp"
+
+IDR_FLAG33              BITMAP                  "res\\flags\\ca.bmp"
+
+IDR_FLAG34              BITMAP                  "res\\flags\\cd.bmp"
+
+IDR_FLAG35              BITMAP                  "res\\flags\\cf.bmp"
+
+IDR_FLAG36              BITMAP                  "res\\flags\\cg.bmp"
+
+IDR_FLAG37              BITMAP                  "res\\flags\\ch.bmp"
+
+IDR_FLAG38              BITMAP                  "res\\flags\\ci.bmp"
+
+IDR_FLAG39              BITMAP                  "res\\flags\\cl.bmp"
+
+IDR_FLAG40              BITMAP                  "res\\flags\\cm.bmp"
+
+IDR_FLAG41              BITMAP                  "res\\flags\\cn.bmp"
+
+IDR_FLAG42              BITMAP                  "res\\flags\\co.bmp"
+
+IDR_FLAG43              BITMAP                  "res\\flags\\cr.bmp"
+
+IDR_FLAG44              BITMAP                  "res\\flags\\cu.bmp"
+
+IDR_FLAG45              BITMAP                  "res\\flags\\cv.bmp"
+
+IDR_FLAG46              BITMAP                  "res\\flags\\cy.bmp"
+
+IDR_FLAG47              BITMAP                  "res\\flags\\cz.bmp"
+
+IDR_FLAG48              BITMAP                  "res\\flags\\de.bmp"
+
+IDR_FLAG49              BITMAP                  "res\\flags\\dj.bmp"
+
+IDR_FLAG50              BITMAP                  "res\\flags\\dk.bmp"
+
+IDR_FLAG51              BITMAP                  "res\\flags\\dm.bmp"
+
+IDR_FLAG52              BITMAP                  "res\\flags\\do.bmp"
+
+IDR_FLAG53              BITMAP                  "res\\flags\\dz.bmp"
+
+IDR_FLAG54              BITMAP                  "res\\flags\\ec.bmp"
+
+IDR_FLAG55              BITMAP                  "res\\flags\\ee.bmp"
+
+IDR_FLAG56              BITMAP                  "res\\flags\\eg.bmp"
+
+IDR_FLAG57              BITMAP                  "res\\flags\\er.bmp"
+
+IDR_FLAG58              BITMAP                  "res\\flags\\es.bmp"
+
+IDR_FLAG59              BITMAP                  "res\\flags\\et.bmp"
+
+IDR_FLAG60              BITMAP                  "res\\flags\\eu.bmp"
+
+IDR_FLAG61              BITMAP                  "res\\flags\\fi.bmp"
+
+IDR_FLAG62              BITMAP                  "res\\flags\\fj.bmp"
+
+IDR_FLAG63              BITMAP                  "res\\flags\\fm.bmp"
+
+IDR_FLAG64              BITMAP                  "res\\flags\\fo.bmp"
+
+IDR_FLAG65              BITMAP                  "res\\flags\\fr.bmp"
+
+IDR_FLAG66              BITMAP                  "res\\flags\\ga.bmp"
+
+IDR_FLAG67              BITMAP                  "res\\flags\\gb.bmp"
+
+IDR_FLAG68              BITMAP                  "res\\flags\\gd.bmp"
+
+IDR_FLAG69              BITMAP                  "res\\flags\\gg.bmp"
+
+IDR_FLAG70              BITMAP                  "res\\flags\\gh.bmp"
+
+IDR_FLAG71              BITMAP                  "res\\flags\\gi.bmp"
+
+IDR_FLAG72              BITMAP                  "res\\flags\\gl.bmp"
+
+IDR_FLAG73              BITMAP                  "res\\flags\\gm.bmp"
+
+IDR_FLAG74              BITMAP                  "res\\flags\\gn.bmp"
+
+IDR_FLAG75              BITMAP                  "res\\flags\\gq.bmp"
+
+IDR_FLAG76              BITMAP                  "res\\flags\\gr.bmp"
+
+IDR_FLAG77              BITMAP                  "res\\flags\\gt.bmp"
+
+IDR_FLAG78              BITMAP                  "res\\flags\\gu.bmp"
+
+IDR_FLAG79              BITMAP                  "res\\flags\\gw.bmp"
+
+IDR_FLAG80              BITMAP                  "res\\flags\\gy.bmp"
+
+IDR_FLAG81              BITMAP                  "res\\flags\\hk.bmp"
+
+IDR_FLAG82              BITMAP                  "res\\flags\\hn.bmp"
+
+IDR_FLAG83              BITMAP                  "res\\flags\\hr.bmp"
+
+IDR_FLAG84              BITMAP                  "res\\flags\\ht.bmp"
+
+IDR_FLAG85              BITMAP                  "res\\flags\\hu.bmp"
+
+IDR_FLAG86              BITMAP                  "res\\flags\\id.bmp"
+
+IDR_FLAG87              BITMAP                  "res\\flags\\ie.bmp"
+
+IDR_FLAG88              BITMAP                  "res\\flags\\il.bmp"
+
+IDR_FLAG89              BITMAP                  "res\\flags\\in.bmp"
+
+IDR_FLAG90              BITMAP                  "res\\flags\\iq.bmp"
+
+IDR_FLAG91              BITMAP                  "res\\flags\\ir.bmp"
+
+IDR_FLAG92              BITMAP                  "res\\flags\\is.bmp"
+
+IDR_FLAG93              BITMAP                  "res\\flags\\it.bmp"
+
+IDR_FLAG94              BITMAP                  "res\\flags\\je.bmp"
+
+IDR_FLAG95              BITMAP                  "res\\flags\\jm.bmp"
+
+IDR_FLAG96              BITMAP                  "res\\flags\\jo.bmp"
+
+IDR_FLAG97              BITMAP                  "res\\flags\\jp.bmp"
+
+IDR_FLAG98              BITMAP                  "res\\flags\\ke.bmp"
+
+IDR_FLAG99              BITMAP                  "res\\flags\\kg.bmp"
+
+IDR_FLAG100             BITMAP                  "res\\flags\\kh.bmp"
+
+IDR_FLAG101             BITMAP                  "res\\flags\\ki.bmp"
+
+IDR_FLAG102             BITMAP                  "res\\flags\\kn.bmp"
+
+IDR_FLAG103             BITMAP                  "res\\flags\\kp.bmp"
+
+IDR_FLAG104             BITMAP                  "res\\flags\\kr.bmp"
+
+IDR_FLAG105             BITMAP                  "res\\flags\\kw.bmp"
+
+IDR_FLAG106             BITMAP                  "res\\flags\\ky.bmp"
+
+IDR_FLAG107             BITMAP                  "res\\flags\\kz.bmp"
+
+IDR_FLAG108             BITMAP                  "res\\flags\\la.bmp"
+
+IDR_FLAG109             BITMAP                  "res\\flags\\lb.bmp"
+
+IDR_FLAG110             BITMAP                  "res\\flags\\lc.bmp"
+
+IDR_FLAG111             BITMAP                  "res\\flags\\li.bmp"
+
+IDR_FLAG112             BITMAP                  "res\\flags\\lk.bmp"
+
+IDR_FLAG113             BITMAP                  "res\\flags\\lr.bmp"
+
+IDR_FLAG114             BITMAP                  "res\\flags\\ls.bmp"
+
+IDR_FLAG115             BITMAP                  "res\\flags\\lt.bmp"
+
+IDR_FLAG116             BITMAP                  "res\\flags\\lu.bmp"
+
+IDR_FLAG117             BITMAP                  "res\\flags\\lv.bmp"
+
+IDR_FLAG118             BITMAP                  "res\\flags\\ly.bmp"
+
+IDR_FLAG119             BITMAP                  "res\\flags\\ma.bmp"
+
+IDR_FLAG120             BITMAP                  "res\\flags\\mc.bmp"
+
+IDR_FLAG121             BITMAP                  "res\\flags\\md.bmp"
+
+IDR_FLAG122             BITMAP                  "res\\flags\\mg.bmp"
+
+IDR_FLAG123             BITMAP                  "res\\flags\\mh.bmp"
+
+IDR_FLAG124             BITMAP                  "res\\flags\\mk.bmp"
+
+IDR_FLAG125             BITMAP                  "res\\flags\\ml.bmp"
+
+IDR_FLAG126             BITMAP                  "res\\flags\\mm.bmp"
+
+IDR_FLAG127             BITMAP                  "res\\flags\\mn.bmp"
+
+IDR_FLAG128             BITMAP                  "res\\flags\\mp.bmp"
+
+IDR_FLAG129             BITMAP                  "res\\flags\\mq.bmp"
+
+IDR_FLAG130             BITMAP                  "res\\flags\\mr.bmp"
+
+IDR_FLAG131             BITMAP                  "res\\flags\\ms.bmp"
+
+IDR_FLAG132             BITMAP                  "res\\flags\\mt.bmp"
+
+IDR_FLAG133             BITMAP                  "res\\flags\\mu.bmp"
+
+IDR_FLAG134             BITMAP                  "res\\flags\\mv.bmp"
+
+IDR_FLAG135             BITMAP                  "res\\flags\\mw.bmp"
+
+IDR_FLAG136             BITMAP                  "res\\flags\\mx.bmp"
+
+IDR_FLAG137             BITMAP                  "res\\flags\\my.bmp"
+
+IDR_FLAG138             BITMAP                  "res\\flags\\mz.bmp"
+
+IDR_FLAG139             BITMAP                  "res\\flags\\na.bmp"
+
+IDR_FLAG140             BITMAP                  "res\\flags\\ne.bmp"
+
+IDR_FLAG141             BITMAP                  "res\\flags\\ng.bmp"
+
+IDR_FLAG142             BITMAP                  "res\\flags\\ni.bmp"
+
+IDR_FLAG143             BITMAP                  "res\\flags\\nl.bmp"
+
+IDR_FLAG144             BITMAP                  "res\\flags\\no.bmp"
+
+IDR_FLAG145             BITMAP                  "res\\flags\\np.bmp"
+
+IDR_FLAG146             BITMAP                  "res\\flags\\nr.bmp"
+
+IDR_FLAG147             BITMAP                  "res\\flags\\nu.bmp"
+
+IDR_FLAG148             BITMAP                  "res\\flags\\nz.bmp"
+
+IDR_FLAG149             BITMAP                  "res\\flags\\om.bmp"
+
+IDR_FLAG150             BITMAP                  "res\\flags\\pa.bmp"
+
+IDR_FLAG151             BITMAP                  "res\\flags\\pe.bmp"
+
+IDR_FLAG152             BITMAP                  "res\\flags\\pg.bmp"
+
+IDR_FLAG153             BITMAP                  "res\\flags\\ph.bmp"
+
+IDR_FLAG154             BITMAP                  "res\\flags\\pk.bmp"
+
+IDR_FLAG155             BITMAP                  "res\\flags\\pl.bmp"
+
+IDR_FLAG156             BITMAP                  "res\\flags\\pn.bmp"
+
+IDR_FLAG157             BITMAP                  "res\\flags\\pr.bmp"
+
+IDR_FLAG158             BITMAP                  "res\\flags\\pt.bmp"
+
+IDR_FLAG159             BITMAP                  "res\\flags\\pw.bmp"
+
+IDR_FLAG160             BITMAP                  "res\\flags\\py.bmp"
+
+IDR_FLAG161             BITMAP                  "res\\flags\\qa.bmp"
+
+IDR_FLAG162             BITMAP                  "res\\flags\\ro.bmp"
+
+IDR_FLAG163             BITMAP                  "res\\flags\\ru.bmp"
+
+IDR_FLAG164             BITMAP                  "res\\flags\\rw.bmp"
+
+IDR_FLAG165             BITMAP                  "res\\flags\\sa.bmp"
+
+IDR_FLAG166             BITMAP                  "res\\flags\\sb.bmp"
+
+IDR_FLAG167             BITMAP                  "res\\flags\\sc.bmp"
+
+IDR_FLAG168             BITMAP                  "res\\flags\\sd.bmp"
+
+IDR_FLAG169             BITMAP                  "res\\flags\\se.bmp"
+
+IDR_FLAG170             BITMAP                  "res\\flags\\sg.bmp"
+
+IDR_FLAG171             BITMAP                  "res\\flags\\si.bmp"
+
+IDR_FLAG172             BITMAP                  "res\\flags\\sk.bmp"
+
+IDR_FLAG173             BITMAP                  "res\\flags\\sl.bmp"
+
+IDR_FLAG174             BITMAP                  "res\\flags\\sm.bmp"
+
+IDR_FLAG175             BITMAP                  "res\\flags\\sn.bmp"
+
+IDR_FLAG176             BITMAP                  "res\\flags\\so.bmp"
+
+IDR_FLAG177             BITMAP                  "res\\flags\\sov.bmp"
+
+IDR_FLAG178             BITMAP                  "res\\flags\\sr.bmp"
+
+IDR_FLAG179             BITMAP                  "res\\flags\\st.bmp"
+
+IDR_FLAG180             BITMAP                  "res\\flags\\sv.bmp"
+
+IDR_FLAG181             BITMAP                  "res\\flags\\sy.bmp"
+
+IDR_FLAG182             BITMAP                  "res\\flags\\sz.bmp"
+
+IDR_FLAG183             BITMAP                  "res\\flags\\td.bmp"
+
+IDR_FLAG184             BITMAP                  "res\\flags\\tg.bmp"
+
+IDR_FLAG185             BITMAP                  "res\\flags\\th.bmp"
+
+IDR_FLAG186             BITMAP                  "res\\flags\\tj.bmp"
+
+IDR_FLAG187             BITMAP                  "res\\flags\\tm.bmp"
+
+IDR_FLAG188             BITMAP                  "res\\flags\\tn.bmp"
+
+IDR_FLAG189             BITMAP                  "res\\flags\\to.bmp"
+
+IDR_FLAG190             BITMAP                  "res\\flags\\tr.bmp"
+
+IDR_FLAG191             BITMAP                  "res\\flags\\tt.bmp"
+
+IDR_FLAG192             BITMAP                  "res\\flags\\tv.bmp"
+
+IDR_FLAG193             BITMAP                  "res\\flags\\tw.bmp"
+
+IDR_FLAG194             BITMAP                  "res\\flags\\tz.bmp"
+
+IDR_FLAG195             BITMAP                  "res\\flags\\ua.bmp"
+
+IDR_FLAG196             BITMAP                  "res\\flags\\ug.bmp"
+
+IDR_FLAG197             BITMAP                  "res\\flags\\us.bmp"
+
+IDR_FLAG198             BITMAP                  "res\\flags\\uy.bmp"
+
+IDR_FLAG199             BITMAP                  "res\\flags\\uz.bmp"
+
+IDR_FLAG200             BITMAP                  "res\\flags\\va.bmp"
+
+IDR_FLAG201             BITMAP                  "res\\flags\\vc.bmp"
+
+IDR_FLAG202             BITMAP                  "res\\flags\\ve.bmp"
+
+IDR_FLAG203             BITMAP                  "res\\flags\\vg.bmp"
+
+IDR_FLAG204             BITMAP                  "res\\flags\\vn.bmp"
+
+IDR_FLAG205             BITMAP                  "res\\flags\\vu.bmp"
+
+IDR_FLAG206             BITMAP                  "res\\flags\\ws.bmp"
+
+IDR_FLAG207             BITMAP                  "res\\flags\\ye.bmp"
+
+IDR_FLAG208             BITMAP                  "res\\flags\\yu.bmp"
+
+IDR_FLAG209             BITMAP                  "res\\flags\\za.bmp"
+
+IDR_FLAG210             BITMAP                  "res\\flags\\zm.bmp"
+
+IDR_FLAG211             BITMAP                  "res\\flags\\zw.bmp"
+
+IDR_FLAG212             BITMAP                  "res\\flags\\RS.bmp"
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Sys. Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUSD)
+LANGUAGE LANG_NEUTRAL, SUBLANG_SYS_DEFAULT
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_SERVER_CONNECT
+    BUTTON      ID_SERVER_VIEWDETAILS
+    BUTTON      ID_SERVER_REFRESH
+    BUTTON      ID_EDIT_COPY_IP
+    SEPARATOR
+    BUTTON      ID_FILTER_SHOWPASSWORDED
+    BUTTON      ID_FILTER_SHOWEMPTY
+    BUTTON      ID_FILTER_SHOWFULL
+    BUTTON      ID_FILTER_SHOWWITHOUTPB
+    BUTTON      ID_FILTER_SHOWPUNKBUSTER
+    BUTTON      ID_FILTER_SHOWQ4TVSERVERS
+    SEPARATOR
+    BUTTON      ID_PROTOCOL_COMBO
+    BUTTON      ID_BUTTON32828
+    BUTTON      ID_BUTTON32829
+    BUTTON      ID_BUTTON32830
+    BUTTON      ID_BUTTON32831
+    BUTTON      ID_BUTTON32832
+    BUTTON      ID_FAVOURITES_COMBO
+    BUTTON      ID_BUTTON32834
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "Game"
+    BEGIN
+        MENUITEM SEPARATOR
+        MENUITEM "Configure Games",             ID_FILE_CONFIGUREGAMES
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit\tAlt-F4",               ID_APP_EXIT
+    END
+    POPUP "Server &List"
+    BEGIN
+        MENUITEM "Check for new servers\tCtrl+N", ID_GAME_CHECKFORNEWSERVERS
+        MENUITEM "Delete old servers\tCtrl+D",  ID_GAME_DELETEOLDSERVERS
+        MENUITEM SEPARATOR
+        MENUITEM "Refresh all servers\tCtrl+R", ID_GAME_REFRESHALLSERVERS
+        MENUITEM "Refresh &visible\tF5",        ID_SERVER_REFRESHVISIBLE
+        MENUITEM SEPARATOR
+        MENUITEM "Add server\tCtrl+S",          ID_GAME_ADDSERVER
+        MENUITEM "Find Server\tCtrl+F",         ID_GAME_FINDSERVER
+        MENUITEM "Import servers",              ID_SERVERLIST_IMPORTSERVERS
+    END
+    POPUP "&Server"
+    BEGIN
+        MENUITEM "&Connect\tCtrl+J",            ID_SERVER_CONNECT
+        MENUITEM "Set &Password\tCtrl+P",       ID_SERVER_SETPASSWORD
+        MENUITEM SEPARATOR
+        MENUITEM "Vie&w details\tCtrl+V",       ID_SERVER_VIEWDETAILS
+        MENUITEM "Copy &Details\tCtrl+Shift+C", ID_EDIT_COPYDETAILS
+        MENUITEM "&Copy IP\tCtrl+C",            ID_EDIT_COPY_IP
+        MENUITEM SEPARATOR
+        MENUITEM "&Refresh selected\tCtrl-F5",  ID_SERVER_REFRESH
+        MENUITEM SEPARATOR
+        MENUITEM "Add to &favourites\tCtrl+A",  ID_SERVER_ADDTOFAVOURITES
+        MENUITEM "Remove from favourites",      ID_SERVER_REMOVEFROMFAVOURITES
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "Select &Columns",             ID_VIEW_SELECTCOLUMNS
+        MENUITEM "Edit filter &tree",           ID_VIEW_EDITFILTERTREE
+        MENUITEM SEPARATOR
+        MENUITEM "Show &passworded",            ID_FILTER_SHOWPASSWORDED_MENU
+        MENUITEM "Show &with PB",               ID_FILTER_SHOWPUNKBUSTER_MENU
+        MENUITEM "Show without P&B",            ID_FILTER_SHOWWITHOUTPB_MENU
+        MENUITEM "Show &empty",                 ID_FILTER_SHOWEMPTY_MENU
+        MENUITEM "Show &full",                  ID_FILTER_SHOWFULL_MENU
+        MENUITEM "Show T&V Servers",            ID_FILTER_SHOWQ4TVSERVERS_MENU
+        MENUITEM SEPARATOR
+        MENUITEM "Tool&bar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "Settings",                    ID_GAME_SETTINGS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About MAXBrowse...",         ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY_IP,        VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY_IP,        VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPYDETAILS,    VIRTKEY, SHIFT, CONTROL, NOINVERT
+    "N",            ID_GAME_CHECKFORNEWSERVERS, VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_GAME_DELETEOLDSERVERS, VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_GAME_FINDSERVER,     VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_GAME_REFRESHALLSERVERS, VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    "A",            ID_SERVER_ADDTOFAVOURITES, VIRTKEY, CONTROL, NOINVERT
+    "J",            ID_SERVER_CONNECT,      VIRTKEY, CONTROL, NOINVERT
+    VK_F5,          ID_SERVER_REFRESH,      VIRTKEY, CONTROL, NOINVERT
+    VK_F5,          ID_SERVER_REFRESHVISIBLE, VIRTKEY, NOINVERT
+    "P",            ID_SERVER_SETPASSWORD,  VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_SERVER_VIEWDETAILS,  VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_GAME_ADDSERVER,      VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 97
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About MAXBrowse"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "MAXBrowse Version 1.3",IDC_STATIC,45,15,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2007/2008",IDC_STATIC,45,41,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
+    LTEXT           "Flag icons:",IDC_STATIC,23,73,54,8
+    LTEXT           "GeoLite Country database (CSV data only)",IDC_STATIC,80,65,137,8
+    LTEXT           "IP database:",IDC_STATIC,23,65,42,8
+    LTEXT           "Zarkof",IDC_STATIC,81,74,22,8
+    LTEXT           "Created by AnthonyJ",IDC_STATIC,45,31,70,8
+    ICON            IDR_MAINFRAME,IDC_STATIC,15,9,20,20
+    LTEXT           "Max icon:",IDC_STATIC,23,81,54,8
+    LTEXT           "fnatic|Alba",IDC_STATIC,81,82,36,8
+END
+
+IDD_GAME_CONFIG_PAGE DIALOGEX 0, 0, 333, 114
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Property Page"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "Installed",IDC_INSTALLED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,7,43,10
+    PUSHBUTTON      "Add Installation",IDC_ADD_INSTALLATION,7,93,69,14
+    CONTROL         "",IDC_INSTALLATIONS,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,19,319,68
+    PUSHBUTTON      "Edit Installation",IDC_EDIT_INSTALLATION,81,93,71,14
+    PUSHBUTTON      "Delete Installation",IDC_DELETE_INSTALLATION,255,93,71,14
+    CONTROL         "Force no SMP",IDC_FORCENOSMP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,266,6,59,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,3,0,0
+ PRODUCTVERSION 1,3,0,0
+ FILEFLAGSMASK 0x1fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080004e4"
+        BEGIN
+            VALUE "FileDescription", "A server browser for D3 / Q3 engine games."
+            VALUE "FileVersion", "1.3.0.0"
+            VALUE "InternalName", "MAXBrowse.exe"
+            VALUE "LegalCopyright", "(c) 2007,2008,2023 AnthonyJ.  All rights reserved."
+            VALUE "OriginalFilename", "MAXBrowse.exe"
+            VALUE "ProductName", "MAXBrowse"
+            VALUE "ProductVersion", "1.3.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x800, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 90
+    END
+
+    IDD_GAME_CONFIG_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 326
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 107
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "MAXBrowse\n\nMAXBrowse\n\n\nMAXBrowse.Document\nMAXBrowse.Document"
+    ID_INDICATOR_SERVERS    "Servers: 0"
+    ID_INDICATOR_PLAYERS    "Players: 0"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "MAXBrowse"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_COPY_IP         "Copies the server IP and port into the Windows clipboard.\nCopy IP"
+    ID_FILE_CONFIGUREGAMES  "Allows you to specify which games are installed, and any additional parameters.\nConfigure Games"
+    ID_GAME_QUAKE4          "Sets the current game to Quake 4\nQuake 4"
+    ID_GAME_DOOM3           "Sets the current game to Doom 3\nDoom 3"
+    ID_GAME_PREY            "Sets the current game to Prey\nPrey"
+    ID_GAME_CHECKFORNEWSERVERS 
+                            "Checks for new servers, and refreshes them\nCheck for new servers"
+    ID_GAME_DELETEOLDSERVERS 
+                            "Deletes any servers which were not responsive when last queried\nDelete old servers"
+    ID_GAME_ADDSERVER       "Allows you to manually add a server\nAdd server"
+    ID_FILTER_SHOWPASSWORDED_MENU 
+                            "When selected, will include passworded servers in the displayed list.\nShow passworded"
+    ID_FILTER_SHOWPUNKBUSTER_MENU 
+                            "When selected, will show servers with PB enabled.\nShow with PB"
+    ID_FILTER_SHOWWITHOUTPB_MENU 
+                            "When selected, will show servers without PB enabled.\nShow without PB"
+    ID_FILTER_SHOWEMPTY_MENU 
+                            "When selected, will show servers that are empty.\nShow empty"
+    ID_FILTER_SHOWFULL_MENU "When selected, will show servers that are full.\nShow full"
+    ID_FILTER_SHOWPUNKBUSTER 
+                            "When selected, will show servers with PB enabled.\nShow with PB"
+    ID_FILTER_SHOWEMPTY     "When selected, will show servers that are empty.\nShow empty"
+    ID_FILTER_SHOWFULL      "When selected, will show servers that are full.\nShow full"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILTER_SHOWWITHOUTPB "When selected, will show servers without PB enabled.\nShow without PB"
+    ID_GAME_REFRESHALLSERVERS 
+                            "Checks for new servers, and then refreshes all servers\nRefresh all servers"
+    ID_FILTER_SHOWQ4TVSERVERS 
+                            "When selected, will only show TV servers - when not selected, they will be hidden.\nShow Q4TV servers"
+    ID_FILTER_SHOWQ4TVSERVERS_MENU 
+                            "When selected, will only show TV servers - when not selected, they will be hidden.\nShow TV servers"
+    ID_VIEW_EDITFILTERTREE  "Allows the structure of the filter tree to be edited.\nEdit filter tree"
+    ID_SERVER_SETPASSWORD   "Allows you to store a password for the server, which will be used when connecting.\nSet Password"
+END
+
+STRINGTABLE
+BEGIN
+    ID_SERVER_REFRESHVISIBLE 
+                            "Refreshes all of the servers that are currently displayed in the server list\nRefresh visible"
+    ID_GAME_FINDSERVER      "Allows you to search for a server within the visible servers.\nFind server"
+    ID_SERVER_REMOVEFROMFAVOURITES 
+                            "Removes the selected servers from the current favourites group\nRemove from favourites"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILTER_SHOWPASSWORDED 
+                            "When selected, will include passworded servers in the displayed list.\nShow passworded"
+    ID_SERVER_VIEWDETAILS   "Displays information about the selected server\nView details"
+    ID_SERVER_CONNECT       "Connects to the currently highlighted server.\nConnect"
+    ID_EDIT_COPYDETAILS     "Copies information about the selected server into the Windows clipboard.\nCopy details"
+    ID_SERVER_ADDTOFAVOURITES 
+                            "Allows the servers to be added to a favourites group, which can then be used when filtering the servers.\nAdd to favourites"
+    ID_VIEW_SELECTCOLUMNS   "Allows you to select the columns displayed in the server info pane.\nSelect columns"
+    ID_SERVER_REFRESH       "Refreshes the selected servers.\nRefresh selected"
+END
+
+STRINGTABLE
+BEGIN
+    ID_SERVERLIST_IMPORTSERVERS 
+                            "Imports servers from a text file - newline separated IP:port format."
+END
+
+#endif    // Neutral (Sys. Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_PADLOCK             BITMAP                  "res\\padlock.bmp"
+
+IDB_FAVOURITE           BITMAP                  "res\\favourite.bmp"
+
+IDB_PUNKBUSTER          BITMAP                  "res\\punkbuster.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SELECT_COLUMNS DIALOGEX 0, 0, 377, 201
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Columns"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,320,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,320,24,50,14
+    LISTBOX         IDC_SELECTED,180,21,130,172,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_NOT_SELECTED,16,21,130,173,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      ">>",IDC_SELECT,151,54,23,14
+    PUSHBUTTON      "<<",IDC_DESELECT,151,78,23,14
+    LTEXT           "Available columns:",IDC_STATIC,21,9,60,8
+    LTEXT           "Selected columns:",IDC_STATIC,184,10,58,8
+END
+
+IDD_SERVER_DETAILS DIALOGEX 0, 0, 392, 282
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Server Details"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Close",IDOK,335,261,50,14
+    EDITTEXT        IDC_IP,62,7,145,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Server IP:",IDC_STATIC,12,9,34,8
+    PUSHBUTTON      "Connect",IDC_CONNECT,63,261,50,14
+    CONTROL         "",IDC_SERVERINFO,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,217,22,168,230
+    LTEXT           "Serverinfo:",IDC_STATIC,217,9,37,8
+    LTEXT           "Ping:",IDC_STATIC,12,43,17,8
+    LTEXT           "999",IDC_PING,62,43,12,8
+    PUSHBUTTON      "Refresh",IDC_REFRESH,7,261,50,14
+    CONTROL         "",IDC_PLAYERS,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,131,198,121
+    LTEXT           "Players:",IDC_STATIC,12,121,27,8
+    LTEXT           "Name:",IDC_STATIC,12,33,22,8
+    LTEXT           "Players:",IDC_STATIC,12,83,27,8
+    LTEXT           "Punkbuster:",IDC_STATIC,12,93,40,8
+    LTEXT           "Passworded:",IDC_STATIC,12,103,42,8
+    LTEXT           "Gametype:",IDC_STATIC,12,63,36,8
+    LTEXT           "Static",IDC_NAME,62,33,132,8
+    LTEXT           "Static",IDC_PLAYER_COUNT,62,83,132,8
+    LTEXT           "Mod:",IDC_STATIC,12,53,17,8
+    LTEXT           "Static",IDC_PUNKBUSTER,62,93,132,8
+    LTEXT           "Static",IDC_PASSWORDED,62,103,132,8
+    LTEXT           "Static",IDC_GAMETYPE,62,63,132,8
+    LTEXT           "Static",IDC_MOD,62,53,132,8
+    LTEXT           "Map:",IDC_STATIC,12,73,17,8
+    LTEXT           "Static",IDC_MAP,62,73,132,8
+END
+
+IDD_PROGRESS DIALOGEX 0, 0, 186, 41
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Please wait..."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_PROGRESS,"msctls_progress32",PBS_SMOOTH | WS_BORDER,7,20,172,13
+    CTEXT           "Static",IDC_PROGRESS_LABEL,39,7,100,8
+END
+
+IDD_CUSTOMISE_FILTER DIALOGEX 0, 0, 208, 142
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Customise Filter"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDOK,94,120,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,151,120,50,14
+    CONTROL         "",IDC_FILTER_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_EDITLABELS | TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | TVS_NOSCROLL | WS_BORDER | WS_TABSTOP,7,20,134,93
+    LTEXT           "Filter tree structure:",IDC_STATIC,8,10,66,8
+    PUSHBUTTON      "Add",IDC_ADD,151,20,50,14
+    PUSHBUTTON      "Delete",IDC_DELETE,151,59,50,14
+    PUSHBUTTON      "Edit",IDC_EDIT,151,39,50,14
+END
+
+IDD_PASSWORD DIALOGEX 0, 0, 249, 50
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Password"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_PASSWORD,53,30,119,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,192,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,192,29,50,14
+    LTEXT           "Server:",IDC_STATIC,15,8,25,8
+    LTEXT           "",IDC_SERVER,53,8,119,8
+    LTEXT           "Name:",IDC_STATIC,15,19,22,8
+    LTEXT           "",IDC_NAME,53,19,119,8
+    LTEXT           "Password:",IDC_STATIC,15,33,34,8
+END
+
+IDD_FINDSERVER DIALOGEX 0, 0, 254, 41
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Find Server"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_SEARCH_TEXT,55,7,125,14,ES_AUTOHSCROLL
+    CONTROL         "Name only",IDC_NAME_ONLY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,23,49,10
+    PUSHBUTTON      "Find",IDOK,197,7,50,26
+    LTEXT           "Search for:",IDC_STATIC,10,8,37,8
+    CONTROL         "Case sensitive",IDC_CASE_SENSITIVE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,23,62,10
+END
+
+IDD_FAVOURITES DIALOGEX 0, 0, 178, 54
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Favourites"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_FAVOURITES_COMBO,65,9,106,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,59,33,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,121,33,50,14
+    LTEXT           "Group name:",IDC_STATIC,12,11,42,8
+END
+
+IDD_ADD_SERVER DIALOGEX 0, 0, 249, 50
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add Server"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_HOSTNAME,55,7,121,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,192,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,192,24,50,14
+    LTEXT           "Host:",IDC_STATIC,13,9,18,8
+    COMBOBOX        IDC_FAVOURITES_COMBO,55,26,121,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Fav group:",IDC_STATIC,14,27,37,10
+END
+
+IDD_GAME_CONFIG_POPUP DIALOGEX 0, 0, 296, 102
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,183,81,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,239,81,50,14
+    EDITTEXT        IDC_INSTALLDIR,85,24,155,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BROWSE_INSTALLDIR,246,24,42,14
+    EDITTEXT        IDC_EXENAME,85,41,110,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ADDITIONAL_PARAMS,85,59,203,14,ES_AUTOHSCROLL
+    LTEXT           "Install directory:",IDC_INSTALLDIR_LABEL,7,27,58,8
+    LTEXT           "Additional parameters:",IDC_ADITIONAL_PARMS_LABEL,7,61,74,8
+    LTEXT           "Application name:",IDC_EXENAME_LABEL,7,44,58,8
+    LTEXT           "Version:",IDC_EXENAME_LABEL2,8,9,27,8
+    COMBOBOX        IDC_VERSION,85,8,110,67,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_SETTINGS DIALOGEX 0, 0, 246, 146
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,131,125,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,189,125,50,14
+    CONTROL         "Use ICMP ping",IDC_USEICMP,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,17,98,95,10
+    LTEXT           "Query multiple servers:",IDC_STATIC,17,82,76,8
+    GROUPBOX        "Server Query ",IDC_STATIC,7,68,232,50
+    CONTROL         "",IDC_QUERYCOUNT,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | WS_TABSTOP,98,82,135,11
+    GROUPBOX        "General ",IDC_STATIC,7,7,112,55
+    CONTROL         "Minimise to systray:",IDC_MINIMISETOSYSTRAY,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,15,18,95,10
+    LTEXT           "Favourites colour:",IDC_STATIC,135,18,59,8
+    LTEXT           "Full colour:",IDC_STATIC,135,31,36,8
+    LTEXT           "1",IDC_STATIC,106,76,8,8
+    LTEXT           "20",IDC_STATIC,221,73,8,8
+    CONTROL         "Minimise on connect:",IDC_MINIMISEON_CONNECT,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,15,37,95,10
+    PUSHBUTTON      "",IDC_FAVOURITES_COLOUR,222,18,10,9
+    PUSHBUTTON      "",IDC_FULL_COLOUR,222,31,10,9
+    CONTROL         "Shade alternate rows:",IDC_SHADE_ALTERNATE_ROWS,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,135,44,96,10
+    GROUPBOX        "Appearance ",IDC_STATIC,127,7,112,54
+    CONTROL         "Minimise on startup:",IDC_MINIMISEON_STARTUP,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,15,27,95,10
+    CONTROL         "Close on connect:",IDC_CLOSE_ON_CONNECT,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,15,46,95,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_SELECT_COLUMNS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 370
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_SERVER_DETAILS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 385
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 275
+    END
+
+    IDD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 34
+    END
+
+    IDD_CUSTOMISE_FILTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+
+    IDD_PASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 242
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_FINDSERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 33
+    END
+
+    IDD_FAVOURITES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 171
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 47
+    END
+
+    IDD_ADD_SERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 242
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_GAME_CONFIG_POPUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 289
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+
+    IDD_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 239
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\ServerBrowser.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "res\\ServerBrowser.manifest"
+
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\ServerBrowser.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<supportedgames>
+	<game name="Quake 4" serversFile="Q4Servers.xml">
+		<installSettings defaultExe="quake4.exe" defaultPath="C:\Program Files\id Software\Quake4\" installRegistrySection="2" installRegistryKey="SOFTWARE\id\Quake 4\" installRegistryValue="InstallPath"/>
+		<specialCvars pbcvar="sv_punkbuster" pwcvar="si_usepass" maxplayerscvar="si_maxplayers"/>
+		<query masterProtocol="Quake4Master" masterServer="q4master.idsoftware.com" masterPort="27650" serverProtocol="Quake4Server" gamePort="28004"/>
+		<columns>
+			<column name="Nationality" cvar="nationality" type="0"/>
+			<column name="Gametype" cvar="si_gametype" type="0"/>
+			<column name="Passworded" cvar="si_usepass" type="1"/> <!-- etqw si_needpass -->
+			<column name="Punkbuster" cvar="sv_punkbuster" type="1" />
+			<column name="Server IP" cvar="server" type="0"/>
+			<column name="Gametype" cvar="si_gametype" type="0"/> <!-- etqw si_rules -->
+			<column name="Name" cvar="si_name" type="0"/>
+			<column name="Map" cvar="si_map" type="0"/>
+			<column name="Mod" cvar="fs_game" type="0"/>
+			<column name="Players" cvar="players" type="1"/>
+			<column name="Ping" cvar="ping" type="1"/>
+			<column name="Buymode" cvar="si_isbuyingenabled" type="1" defaultHidden="1"/> <!-- q4 only -->
+			<column name="Mode" cvar="si_mode" type="0" defaultHidden="1"/> <!-- q4only -->
+			<column name="Spectators" cvar="si_spectators" type="1" defaultHidden="1"/>
+			<column name="SSD" cvar="net_serversnapshotdelay" type="1" defaultHidden="1"/> <!-- q4 only -->
+			<column name="FPS" cvar="si_fps" type="1" defaultHidden="1"/> <!-- q4 only -->
+			<column name="Version" cvar="si_version" type="0" defaultHidden="1"/> 
+			<column name="Modes" cvar="si_modes" type="0" defaultHidden="1"/> <!-- q4 only -->
+			<column name="Allow Voting" cvar="si_allowvoting" type="1" defaultHidden="1"/> 
+			<column name="Bots Enabled" cvar="bot_enable" type="1" defaultHidden="1"/> <!-- etqw+q4 only -->	
+		</columns>
+		<playerProperties>
+			<property name="Name"/>
+			<property name="Clan"/>
+			<property name="Ping"/>
+		</playerProperties>
+	</game>
+
+	<game name="Doom 3" serversFile="D3Servers.xml">
+		<installSettings defaultExe="doom3.exe" defaultPath="C:\Program Files\id Software\Doom 3\" installRegistrySection="2" installRegistryKey="SOFTWARE\id\Doom 3\" installRegistryValue="InstallPath"/>
+		<specialCvars pbcvar="sv_punkbuster" pwcvar="si_usepass" maxplayerscvar="si_maxplayers"/>
+		<query masterProtocol="Doom3Master" masterServer="idnet.ua-corp.com" masterPort="27650" serverProtocol="Doom3Server" gamePort="27666"/>
+		<columns>
+			<column name="Nationality" cvar="nationality" type="0"/>
+			<column name="Gametype" cvar="si_gametype" type="0"/>
+			<column name="Passworded" cvar="si_usepass" type="1"/>
+			<column name="Punkbuster" cvar="sv_punkbuster" type="1"/>
+			<column name="Server IP" cvar="server" type="0"/>
+			<column name="Gametype" cvar="si_gametype" type="0"/> 
+			<column name="Name" cvar="si_name" type="0"/>
+			<column name="Map" cvar="si_map" type="0"/>
+			<column name="Mod" cvar="fs_game" type="0"/>
+			<column name="Players" cvar="players" type="1"/>
+			<column name="Ping" cvar="ping" type="1"/>
+			<column name="Spectators" cvar="si_spectators" type="1" defaultHidden="1"/>
+			<column name="Version" cvar="si_version" type="0" defaultHidden="1"/> 
+			<column name="Allow Voting" cvar="si_allowvoting" type="1" defaultHidden="1"/> 
+		</columns>
+		<playerProperties>
+			<property name="Name"/>
+			<property name="Ping"/>
+		</playerProperties>
+	</game>
+
+	<game name="ETQW">
+		<installSettings defaultExe="etqw.exe" defaultPath="C:\Program Files\id Software\Enemy Territory - QUAKE Wars\" installRegistrySection="2" installRegistryKey="SOFTWARE\id\ETQW\" installRegistryValue="InstallPath"/>
+		<specialCvars pbcvar="sv_punkbuster" pwcvar="si_needpass" maxplayerscvar="si_maxplayers"/>
+		<query masterProtocol="HTTPMaster" masterServer="http://etqw-ipgetter.demonware.net/ipgetter/" serverProtocol="ETQWServer" gamePort="26733"/>
+		<columns>
+			<column name="Nationality" cvar="nationality" type="0"/>
+			<column name="Gametype" cvar="si_gametype" type="0"/>
+			<column name="Passworded" cvar="si_needpass" type="1"/>
+			<column name="Punkbuster" cvar="sv_punkbuster" type="1"/>
+			<column name="Server IP" cvar="server" type="0"/>
+			<column name="Gametype" cvar="si_rules" type="0"/>
+			<column name="Name" cvar="si_name" type="0"/>
+			<column name="Map" cvar="si_map" type="0"/>
+			<column name="Mod" cvar="fs_game" type="0"/>
+			<column name="Players" cvar="players" type="1"/>
+			<column name="Ping" cvar="ping" type="1"/>
+			<column name="Spectators" cvar="si_spectators" type="1" defaultHidden="1"/>
+			<column name="Version" cvar="si_version" type="0" defaultHidden="1"/> 
+			<column name="Allow Voting" cvar="si_allowvoting" type="1" defaultHidden="1"/> 
+			<column name="Bots Enabled" cvar="bot_enable" type="1" defaultHidden="1"/>	
+		</columns>
+		<playerProperties>
+			<property name="Name"/>
+			<property name="Clan"/>
+			<property name="Bot"/>
+			<property name="Ping"/>
+		</playerProperties>
+	</game>
+
+	<game name="Prey" serversFile="PreyServers.xml">
+		<installSettings defaultExe="prey.exe" defaultPath="C:\Program Files\Human Head\Prey\" installRegistrySection="2" installRegistryKey="SOFTWARE\Human Head Studios\" installRegistryValue="InstallPath"/>
+		<specialCvars pbcvar="sv_punkbuster" pwcvar="si_usepass" maxplayerscvar="si_maxplayers"/>
+		<query masterProtocol="Doom3Master" masterServer="preymaster.humanhead.com" masterPort="27650" serverProtocol="Doom3Server" gamePort="27719"/>
+		<columns>
+			<column name="Nationality" cvar="nationality" type="0"/>
+			<column name="Gametype" cvar="si_gametype" type="0"/>
+			<column name="Passworded" cvar="si_usepass" type="1"/>
+			<column name="Punkbuster" cvar="sv_punkbuster" type="1"/>
+			<column name="Server IP" cvar="server" type="0"/>
+			<column name="Gametype" cvar="si_gametype" type="0"/>
+			<column name="Name" cvar="si_name" type="0"/>
+			<column name="Map" cvar="si_map" type="0"/>
+			<column name="Mod" cvar="fs_game" type="0"/>
+			<column name="Players" cvar="players" type="1"/>
+			<column name="Ping" cvar="ping" type="1"/>
+			<column name="Spectators" cvar="si_spectators" type="1" defaultHidden="1"/>
+			<column name="Version" cvar="si_version" type="0" defaultHidden="1"/> 
+			<column name="Allow Voting" cvar="si_allowvoting" type="1" defaultHidden="1"/> 
+		</columns>
+		<playerProperties>
+			<property name="Name"/>
+			<property name="Ping"/>
+		</playerProperties>
+	</game>
+
+	<game name="Quake 3" serversFile="Q3Servers.xml">
+		<installSettings defaultExe="quake3.exe" defaultPath="C:\Program Files\id Software\Quake III Arena\" installRegistrySection="2" installRegistryKey="SOFTWARE\id\Quake III Arena\" installRegistryValue="InstallPath"/>
+		<specialCvars pbcvar="sv_punkbuster" pwcvar="g_needpass" maxplayerscvar="sv_maxclients"/>
+		<query masterProtocol="Quake3Master" masterServer="monster.idsoftware.com" masterPort="27950" serverProtocol="Quake3Server" gamePort="27970" protocolVersion="68"/>
+		<columns>
+			<column name="Nationality" cvar="nationality" type="0"/>
+			<column name="Gametype" cvar="g_gametype" type="0"/>
+			<column name="Passworded" cvar="g_needpass" type="1"/>
+			<column name="Punkbuster" cvar="sv_punkbuster" type="1"/>
+			<column name="Server IP" cvar="server" type="0"/>
+			<column name="Gameplay" cvar="server_gameplay" type="0" defaultHidden="1"/>
+			<column name="Name" cvar="sv_hostname" type="0"/>
+			<column name="Map" cvar="mapname" type="0"/>
+			<column name="Game Name" cvar="gamename" type="0"/>
+			<column name="Players" cvar="players" type="1"/>
+			<column name="Ping" cvar="ping" type="1"/>
+			<column name="Max Rate" cvar="sv_maxrate" type="1" defaultHidden="1"/>
+			<column name="Min Ping" cvar="sv_minping" type="1" defaultHidden="1"/> 
+			<column name="Max Ping" cvar="sv_maxping" type="1" defaultHidden="1"/> 
+			<column name="Server FPS" cvar="sv_fps" type="1" defaultHidden="1"/> 
+			<column name="Mode" cvar="mode_current" type="0" defaultHidden="1"/> 
+		</columns>
+		<playerProperties>
+			<property name="Name"/>
+			<property name="Score"/>
+			<property name="Ping"/>
+		</playerProperties>
+	</game>
+
+	<game name="ET" serversFile="ETServers.xml">
+		<installSettings defaultExe="et.exe" defaultPath="C:\Program Files\id Software\Wolfenstein - Enemy Territory\" installRegistrySection="2" installRegistryKey="SOFTWARE\id\Wolfenstein - Enemy Territory\" installRegistryValue="InstallPath"/>
+		<specialCvars pbcvar="sv_punkbuster" pwcvar="g_needpass" maxplayerscvar="sv_maxclients"/>
+		<query masterProtocol="Quake3Master" masterServer="etmaster.idsoftware.com" masterPort="27950" serverProtocol="ETServer" gamePort="27960" protocolVersion="84"/>
+		<columns>
+			<column name="Nationality" cvar="nationality" type="0"/>
+			<column name="Gametype" cvar="g_gametype" type="0"/>
+			<column name="Passworded" cvar="g_needpass" type="1"/>
+			<column name="Punkbuster" cvar="sv_punkbuster" type="1"/>
+			<column name="Server IP" cvar="server" type="0"/>
+			<column name="Gameplay" cvar="server_gameplay" type="0"/>
+			<column name="Name" cvar="sv_hostname" type="0"/>
+			<column name="Map" cvar="mapname" type="0"/>
+			<column name="Mod" cvar="game" type="0"/>
+			<column name="Game Name" cvar="gamename" type="0" defaultHidden="1"/>
+			<column name="Players" cvar="players" type="1"/>
+			<column name="Ping" cvar="ping" type="1"/>
+			<column name="Max Rate" cvar="sv_maxrate" type="1" defaultHidden="1"/>
+			<column name="Min Ping" cvar="sv_minping" type="1" defaultHidden="1"/> 
+			<column name="Max Ping" cvar="sv_maxping" type="1" defaultHidden="1"/> 
+			<column name="Allow Anon" cvar="sv_allowanonymous" type="1" defaultHidden="1"/> 
+			<column name="Flood Protection" cvar="sv_floodprotect" type="1" defaultHidden="1"/> 
+		</columns>
+		<playerProperties>
+			<property name="Name"/>
+			<property name="Ping"/>
+		</playerProperties>
+	</game>
+	
+	<game name="Warsow" serversFile="WSWServers.xml">
+		<installSettings defaultExe="warsow_x86.exe" defaultPath="C:\Program Files\Warsow\" installRegistrySection="0" installRegistryKey="warsow\DefaultIcon\" installRegistryValue=""/>
+		<specialCvars pbcvar="sv_punkbuster" pwcvar="g_needpass" maxplayerscvar="sv_maxclients"/>
+		<query masterProtocol="Quake3Master" masterServer="dpmaster.deathmask.net" masterPort="27950" protocolVersion="Warsow 10" serverProtocol="WarsowServer"  gamePort="44400"/>
+		<columns>
+			<column name="Nationality" cvar="nationality" type="0"/>
+			<column name="Gametype" cvar="g_gametype" type="0"/>
+			<column name="Passworded" cvar="g_needpass" type="1"/>
+			<column name="Punkbuster" cvar="sv_punkbuster" type="1"/>
+			<column name="Server IP" cvar="server" type="0"/>
+			<column name="Name" cvar="sv_hostname" type="0"/>
+			<column name="Map" cvar="mapname" type="0"/>
+			<column name="Mod" cvar="fs_game" type="0"/>
+			<column name="Game Name" cvar="gamename" type="0" defaultHidden="1"/>
+			<column name="Players" cvar="players" type="1"/>
+			<column name="Ping" cvar="ping" type="1"/>
+			<column name="Instagib" cvar="g_instagib" type="1" defaultHidden="1"/>
+			<column name="Antilag" cvar="g_antilag" type="1" defaultHidden="1"/> 
+		</columns>
+		<playerProperties>
+			<property name="Name"/>
+			<property name="Score"/>
+			<property name="Ping"/>
+		</playerProperties>
+	</game>
+
+	<game name="Quake 2" serversFile="Q2Servers.xml">
+		<installSettings defaultExe="quake2.exe" defaultPath="C:\Program Files\id software\quake2\" installRegistrySection="0" installRegistryKey="warsow\DefaultIcon\" installRegistryValue=""/>
+		<specialCvars pbcvar="anticheat" pwcvar="needpass" maxplayerscvar="maxclients"/>
+		<query masterProtocol="HTTPMaster" masterServer="http://q2servers.com/?raw=1" protocolVersion="10" serverProtocol="Quake2Server"  gamePort="27910"/>
+		<columns>
+			<column name="Nationality" cvar="nationality" type="0"/>
+			<column name="Passworded" cvar="needpass" type="1" defaultHidden="1"/>
+			<column name="Anticheat" cvar="Anticheat" type="1"/>
+			<column name="Server IP" cvar="server" type="0"/>
+			<column name="Name" cvar="hostname" type="0"/>
+			<column name="Map" cvar="mapname" type="0"/>
+			<column name="Mod" cvar="game" type="0"/>
+			<column name="Game Name" cvar="gamename" type="0" defaultHidden="1"/>
+			<column name="Players" cvar="players" type="1"/>
+			<column name="Ping" cvar="ping" type="1"/>
+		</columns>
+		<playerProperties>
+			<property name="Name"/>
+			<property name="Score"/>
+			<property name="Ping"/>
+		</playerProperties>
+	</game>
+
+</supportedgames>

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>MAXBrowse</ProjectName>
+    <ProjectGuid>{6ABF523C-EF58-405E-9814-A69616320470}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.31227.257</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\UI Controls\;.\GUI Framework;.\Server Query\;.\utils;.\Dialogs;.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\UI Controls\;.\GUI Framework;.\Server Query\;.\utils;.\Dialogs;.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MAXBrowse.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>MAXBrowse.map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <EntryPointSymbol />
+      <BaseAddress>0x10000000</BaseAddress>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Manifest>
+      <OutputManifestFile>$(TargetDir)\$(SolutionName).manifest</OutputManifestFile>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Dialogs\AboutBox.h" />
+    <ClInclude Include="Dialogs\AddServerDlg.h" />
+    <ClInclude Include="Dialogs\ConfigureGamesDlg.h" />
+    <ClInclude Include="Dialogs\CustomiseFilterDlg.h" />
+    <ClInclude Include="Dialogs\FavouritesDlg.h" />
+    <ClInclude Include="Dialogs\FindServerDlg.h" />
+    <ClInclude Include="Dialogs\GameConfigPage.h" />
+    <ClInclude Include="Dialogs\GameConfigPopup.h" />
+    <ClInclude Include="Dialogs\PasswordDlg.h" />
+    <ClInclude Include="Dialogs\ProgressDlg.h" />
+    <ClInclude Include="Dialogs\SelectColumnsDlg.h" />
+    <ClInclude Include="Dialogs\ServerDetailsDlg.h" />
+    <ClInclude Include="Dialogs\SettingsDlg.h" />
+    <ClInclude Include="GUI Framework\FilterView.h" />
+    <ClInclude Include="GUI Framework\MainFrm.h" />
+    <ClInclude Include="GUI Framework\PlayerInfoView.h" />
+    <ClInclude Include="GUI Framework\ServerBrowser.h" />
+    <ClInclude Include="GUI Framework\ServerBrowserDoc.h" />
+    <ClInclude Include="GUI Framework\ServerBrowserView.h" />
+    <ClInclude Include="GUI Framework\ServerInfoView.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Server Query\Doom3Master.h" />
+    <ClInclude Include="Server Query\Doom3Server.h" />
+    <ClInclude Include="Server Query\ETQWServer.h" />
+    <ClInclude Include="Server Query\ETServer.h" />
+    <ClInclude Include="Server Query\GameServer.h" />
+    <ClInclude Include="Server Query\HTTPClient.h" />
+    <ClInclude Include="Server Query\HTTPMaster.h" />
+    <ClInclude Include="Server Query\IPNationalityMap.h" />
+    <ClInclude Include="Server Query\MasterServer.h" />
+    <ClInclude Include="Server Query\ICMPPing.h" />
+    <ClInclude Include="Server Query\PlayerDetails.h" />
+    <ClInclude Include="Server Query\Quake2Server.h" />
+    <ClInclude Include="Server Query\Quake3Master.h" />
+    <ClInclude Include="Server Query\Quake3Server.h" />
+    <ClInclude Include="Server Query\Quake4Master.h" />
+    <ClInclude Include="Server Query\Quake4Server.h" />
+    <ClInclude Include="Server Query\SocketConnection.h" />
+    <ClInclude Include="Server Query\SupportedGame.h" />
+    <ClInclude Include="Server Query\WarsowServer.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="UI Controls\ColourPicker.h" />
+    <ClInclude Include="UI Controls\EditableTreeCtrl.h" />
+    <ClInclude Include="UI Controls\SortedListView.h" />
+    <ClInclude Include="UI Controls\SortListCtrl.h" />
+    <ClInclude Include="utils\idDict.h" />
+    <ClInclude Include="utils\idList.h" />
+    <ClInclude Include="utils\idStr.h" />
+    <ClInclude Include="utils\utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dialogs\AboutBox.cpp" />
+    <ClCompile Include="Dialogs\AddServerDlg.cpp" />
+    <ClCompile Include="Dialogs\ConfigureGamesDlg.cpp" />
+    <ClCompile Include="Dialogs\CustomiseFilterDlg.cpp" />
+    <ClCompile Include="Dialogs\FavouritesDlg.cpp" />
+    <ClCompile Include="Dialogs\FindServerDlg.cpp" />
+    <ClCompile Include="Dialogs\GameConfigPage.cpp" />
+    <ClCompile Include="Dialogs\GameConfigPopup.cpp" />
+    <ClCompile Include="Dialogs\PasswordDlg.cpp" />
+    <ClCompile Include="Dialogs\ProgressDlg.cpp" />
+    <ClCompile Include="Dialogs\SelectColumnsDlg.cpp" />
+    <ClCompile Include="Dialogs\ServerDetailsDlg.cpp" />
+    <ClCompile Include="Dialogs\SettingsDlg.cpp" />
+    <ClCompile Include="GUI Framework\FilterView.cpp" />
+    <ClCompile Include="GUI Framework\MainFrm.cpp" />
+    <ClCompile Include="GUI Framework\PlayerInfoView.cpp" />
+    <ClCompile Include="GUI Framework\ServerBrowser.cpp" />
+    <ClCompile Include="GUI Framework\ServerBrowserDoc.cpp" />
+    <ClCompile Include="GUI Framework\ServerBrowserView.cpp" />
+    <ClCompile Include="GUI Framework\ServerInfoView.cpp" />
+    <ClCompile Include="Server Query\Doom3Master.cpp" />
+    <ClCompile Include="Server Query\Doom3Server.cpp" />
+    <ClCompile Include="Server Query\ETQWServer.cpp" />
+    <ClCompile Include="Server Query\ETServer.cpp" />
+    <ClCompile Include="Server Query\GameServer.cpp" />
+    <ClCompile Include="Server Query\HTTPClient.cpp" />
+    <ClCompile Include="Server Query\HTTPMaster.cpp" />
+    <ClCompile Include="Server Query\IPNationalityMap.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Server Query\MasterServer.cpp" />
+    <ClCompile Include="Server Query\ICMPPing.cpp" />
+    <ClCompile Include="Server Query\PlayerDetails.cpp" />
+    <ClCompile Include="Server Query\Quake2Server.cpp" />
+    <ClCompile Include="Server Query\Quake3Master.cpp" />
+    <ClCompile Include="Server Query\Quake3Server.cpp" />
+    <ClCompile Include="Server Query\Quake4Master.cpp" />
+    <ClCompile Include="Server Query\Quake4Server.cpp" />
+    <ClCompile Include="Server Query\SocketConnection.cpp" />
+    <ClCompile Include="Server Query\SupportedGame.cpp" />
+    <ClCompile Include="Server Query\WarsowServer.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UI Controls\ColourPicker.cpp" />
+    <ClCompile Include="UI Controls\EditableTreeCtrl.cpp" />
+    <ClCompile Include="UI Controls\SortedListView.cpp" />
+    <ClCompile Include="UI Controls\SortListCtrl.cpp" />
+    <ClCompile Include="utils\idDict.cpp" />
+    <ClCompile Include="utils\utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\favourite.bmp" />
+    <Image Include="res\flags\ad.bmp" />
+    <Image Include="res\flags\ae.bmp" />
+    <Image Include="res\flags\ag.bmp" />
+    <Image Include="res\flags\ai.bmp" />
+    <Image Include="res\flags\al.bmp" />
+    <Image Include="res\flags\am.bmp" />
+    <Image Include="res\flags\an.bmp" />
+    <Image Include="res\flags\ao.bmp" />
+    <Image Include="res\flags\ar.bmp" />
+    <Image Include="res\flags\as.bmp" />
+    <Image Include="res\flags\at.bmp" />
+    <Image Include="res\flags\au.bmp" />
+    <Image Include="res\flags\aw.bmp" />
+    <Image Include="res\flags\az.bmp" />
+    <Image Include="res\flags\ba.bmp" />
+    <Image Include="res\flags\bb.bmp" />
+    <Image Include="res\flags\bd.bmp" />
+    <Image Include="res\flags\be.bmp" />
+    <Image Include="res\flags\bf.bmp" />
+    <Image Include="res\flags\bg.bmp" />
+    <Image Include="res\flags\bh.bmp" />
+    <Image Include="res\flags\bi.bmp" />
+    <Image Include="res\flags\bj.bmp" />
+    <Image Include="res\flags\bm.bmp" />
+    <Image Include="res\flags\bn.bmp" />
+    <Image Include="res\flags\bo.bmp" />
+    <Image Include="res\flags\br.bmp" />
+    <Image Include="res\flags\bs.bmp" />
+    <Image Include="res\flags\bt.bmp" />
+    <Image Include="res\flags\bw.bmp" />
+    <Image Include="res\flags\by.bmp" />
+    <Image Include="res\flags\bz.bmp" />
+    <Image Include="res\flags\ca.bmp" />
+    <Image Include="res\flags\cd.bmp" />
+    <Image Include="res\flags\cf.bmp" />
+    <Image Include="res\flags\cg.bmp" />
+    <Image Include="res\flags\ch.bmp" />
+    <Image Include="res\flags\ci.bmp" />
+    <Image Include="res\flags\cl.bmp" />
+    <Image Include="res\flags\cm.bmp" />
+    <Image Include="res\flags\cn.bmp" />
+    <Image Include="res\flags\co.bmp" />
+    <Image Include="res\flags\cr.bmp" />
+    <Image Include="res\flags\cu.bmp" />
+    <Image Include="res\flags\cv.bmp" />
+    <Image Include="res\flags\cy.bmp" />
+    <Image Include="res\flags\cz.bmp" />
+    <Image Include="res\flags\de.bmp" />
+    <Image Include="res\flags\dj.bmp" />
+    <Image Include="res\flags\dk.bmp" />
+    <Image Include="res\flags\dm.bmp" />
+    <Image Include="res\flags\do.bmp" />
+    <Image Include="res\flags\dz.bmp" />
+    <Image Include="res\flags\ec.bmp" />
+    <Image Include="res\flags\ee.bmp" />
+    <Image Include="res\flags\eg.bmp" />
+    <Image Include="res\flags\er.bmp" />
+    <Image Include="res\flags\es.bmp" />
+    <Image Include="res\flags\et.bmp" />
+    <Image Include="res\flags\eu.bmp" />
+    <Image Include="res\flags\fi.bmp" />
+    <Image Include="res\flags\fj.bmp" />
+    <Image Include="res\flags\fm.bmp" />
+    <Image Include="res\flags\fo.bmp" />
+    <Image Include="res\flags\fr.bmp" />
+    <Image Include="res\flags\ga.bmp" />
+    <Image Include="res\flags\gb.bmp" />
+    <Image Include="res\flags\gd.bmp" />
+    <Image Include="res\flags\gg.bmp" />
+    <Image Include="res\flags\gh.bmp" />
+    <Image Include="res\flags\gi.bmp" />
+    <Image Include="res\flags\gl.bmp" />
+    <Image Include="res\flags\gm.bmp" />
+    <Image Include="res\flags\gn.bmp" />
+    <Image Include="res\flags\gq.bmp" />
+    <Image Include="res\flags\gr.bmp" />
+    <Image Include="res\flags\gt.bmp" />
+    <Image Include="res\flags\gu.bmp" />
+    <Image Include="res\flags\gw.bmp" />
+    <Image Include="res\flags\gy.bmp" />
+    <Image Include="res\flags\hk.bmp" />
+    <Image Include="res\flags\hn.bmp" />
+    <Image Include="res\flags\hr.bmp" />
+    <Image Include="res\flags\ht.bmp" />
+    <Image Include="res\flags\hu.bmp" />
+    <Image Include="res\flags\id.bmp" />
+    <Image Include="res\flags\ie.bmp" />
+    <Image Include="res\flags\il.bmp" />
+    <Image Include="res\flags\in.bmp" />
+    <Image Include="res\flags\iq.bmp" />
+    <Image Include="res\flags\ir.bmp" />
+    <Image Include="res\flags\is.bmp" />
+    <Image Include="res\flags\it.bmp" />
+    <Image Include="res\flags\je.bmp" />
+    <Image Include="res\flags\jm.bmp" />
+    <Image Include="res\flags\jo.bmp" />
+    <Image Include="res\flags\jp.bmp" />
+    <Image Include="res\flags\ke.bmp" />
+    <Image Include="res\flags\kg.bmp" />
+    <Image Include="res\flags\kh.bmp" />
+    <Image Include="res\flags\ki.bmp" />
+    <Image Include="res\flags\kn.bmp" />
+    <Image Include="res\flags\kp.bmp" />
+    <Image Include="res\flags\kr.bmp" />
+    <Image Include="res\flags\kw.bmp" />
+    <Image Include="res\flags\ky.bmp" />
+    <Image Include="res\flags\kz.bmp" />
+    <Image Include="res\flags\la.bmp" />
+    <Image Include="res\flags\lb.bmp" />
+    <Image Include="res\flags\lc.bmp" />
+    <Image Include="res\flags\li.bmp" />
+    <Image Include="res\flags\lk.bmp" />
+    <Image Include="res\flags\lr.bmp" />
+    <Image Include="res\flags\ls.bmp" />
+    <Image Include="res\flags\lt.bmp" />
+    <Image Include="res\flags\lu.bmp" />
+    <Image Include="res\flags\lv.bmp" />
+    <Image Include="res\flags\ly.bmp" />
+    <Image Include="res\flags\ma.bmp" />
+    <Image Include="res\flags\mc.bmp" />
+    <Image Include="res\flags\md.bmp" />
+    <Image Include="res\flags\mg.bmp" />
+    <Image Include="res\flags\mh.bmp" />
+    <Image Include="res\flags\mk.bmp" />
+    <Image Include="res\flags\ml.bmp" />
+    <Image Include="res\flags\mm.bmp" />
+    <Image Include="res\flags\mn.bmp" />
+    <Image Include="res\flags\mp.bmp" />
+    <Image Include="res\flags\mq.bmp" />
+    <Image Include="res\flags\mr.bmp" />
+    <Image Include="res\flags\ms.bmp" />
+    <Image Include="res\flags\mt.bmp" />
+    <Image Include="res\flags\mu.bmp" />
+    <Image Include="res\flags\mv.bmp" />
+    <Image Include="res\flags\mw.bmp" />
+    <Image Include="res\flags\mx.bmp" />
+    <Image Include="res\flags\my.bmp" />
+    <Image Include="res\flags\mz.bmp" />
+    <Image Include="res\flags\na.bmp" />
+    <Image Include="res\flags\ne.bmp" />
+    <Image Include="res\flags\ng.bmp" />
+    <Image Include="res\flags\ni.bmp" />
+    <Image Include="res\flags\nl.bmp" />
+    <Image Include="res\flags\no.bmp" />
+    <Image Include="res\flags\np.bmp" />
+    <Image Include="res\flags\nr.bmp" />
+    <Image Include="res\flags\nu.bmp" />
+    <Image Include="res\flags\nz.bmp" />
+    <Image Include="res\flags\om.bmp" />
+    <Image Include="res\flags\pa.bmp" />
+    <Image Include="res\flags\pe.bmp" />
+    <Image Include="res\flags\pg.bmp" />
+    <Image Include="res\flags\ph.bmp" />
+    <Image Include="res\flags\pk.bmp" />
+    <Image Include="res\flags\pl.bmp" />
+    <Image Include="res\flags\pn.bmp" />
+    <Image Include="res\flags\pr.bmp" />
+    <Image Include="res\flags\pt.bmp" />
+    <Image Include="res\flags\pw.bmp" />
+    <Image Include="res\flags\py.bmp" />
+    <Image Include="res\flags\qa.bmp" />
+    <Image Include="res\flags\ro.bmp" />
+    <Image Include="res\flags\RS.bmp" />
+    <Image Include="res\flags\ru.bmp" />
+    <Image Include="res\flags\rw.bmp" />
+    <Image Include="res\flags\sa.bmp" />
+    <Image Include="res\flags\sb.bmp" />
+    <Image Include="res\flags\sc.bmp" />
+    <Image Include="res\flags\sd.bmp" />
+    <Image Include="res\flags\se.bmp" />
+    <Image Include="res\flags\sg.bmp" />
+    <Image Include="res\flags\si.bmp" />
+    <Image Include="res\flags\sk.bmp" />
+    <Image Include="res\flags\sl.bmp" />
+    <Image Include="res\flags\sm.bmp" />
+    <Image Include="res\flags\sn.bmp" />
+    <Image Include="res\flags\so.bmp" />
+    <Image Include="res\flags\sov.bmp" />
+    <Image Include="res\flags\sr.bmp" />
+    <Image Include="res\flags\st.bmp" />
+    <Image Include="res\flags\sv.bmp" />
+    <Image Include="res\flags\sy.bmp" />
+    <Image Include="res\flags\sz.bmp" />
+    <Image Include="res\flags\td.bmp" />
+    <Image Include="res\flags\tg.bmp" />
+    <Image Include="res\flags\th.bmp" />
+    <Image Include="res\flags\tj.bmp" />
+    <Image Include="res\flags\tm.bmp" />
+    <Image Include="res\flags\tn.bmp" />
+    <Image Include="res\flags\to.bmp" />
+    <Image Include="res\flags\tr.bmp" />
+    <Image Include="res\flags\tt.bmp" />
+    <Image Include="res\flags\tv.bmp" />
+    <Image Include="res\flags\tw.bmp" />
+    <Image Include="res\flags\tz.bmp" />
+    <Image Include="res\flags\ua.bmp" />
+    <Image Include="res\flags\ug.bmp" />
+    <Image Include="res\flags\us.bmp" />
+    <Image Include="res\flags\uy.bmp" />
+    <Image Include="res\flags\uz.bmp" />
+    <Image Include="res\flags\va.bmp" />
+    <Image Include="res\flags\vc.bmp" />
+    <Image Include="res\flags\ve.bmp" />
+    <Image Include="res\flags\vg.bmp" />
+    <Image Include="res\flags\vn.bmp" />
+    <Image Include="res\flags\vu.bmp" />
+    <Image Include="res\flags\ws.bmp" />
+    <Image Include="res\flags\ye.bmp" />
+    <Image Include="res\flags\yu.bmp" />
+    <Image Include="res\flags\za.bmp" />
+    <Image Include="res\flags\zm.bmp" />
+    <Image Include="res\flags\zw.bmp" />
+    <Image Include="res\padlock.bmp" />
+    <Image Include="res\punkbuster.bmp" />
+    <Image Include="res\ServerBrowser.ico" />
+    <Image Include="res\ServerBrowserDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\IPData.dat" />
+    <None Include="res\rt_manif.bin" />
+    <None Include="res\ServerBrowser.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ServerBrowser.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Installer Files\changelog.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\ServerBrowser.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Data\SupportedGames.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="ServerBrowser.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

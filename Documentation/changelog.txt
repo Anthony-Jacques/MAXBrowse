@@ -1,0 +1,51 @@
+1.3
+
+add - Q2 support
+rem - Removed 3rd party library code for XP styled menubar and toolbar, to make this code GPL compatible
+
+1.2
+
+add - ETQW support
+add - ET support
+add - Q3 support
+add - Warsow support
+add - Support for ICMP pings to servers instead of timing the server reply
+add - Customisable number of servers queried at once
+add - MAXBrowse can now automatically minimise to systray when launching a game
+chg - Player details lists are now different for different games. ETQW gets "bot", Q4 gets "clan"
+chg - Players column may show 4+2 / 12, indicating there are 4 players, 2 bots, and max is 12
+chg - q4 protocol 2.86 detected as 1.4.2 demo
+chg - Server details dialog is now resizable
+chg - the passworded, empty, full, and PB filters are now remembered.
+chg - on first run, the "Configure Games" dialog will always be shown, even if games are found.
+fix - if you previously had a protocol or favourites filter, and its no longer present (eg deleted
+      server .xml files, and refreshed), the filter will be reset.
+fix - XML issues with players with invalid ascii codes in their names corrected
+fix - Refreshing the servers triggering the tree on the left to change position
+fix - Removing a server from all its favourite groups now removes the blue highlight
+
+1.1
+
+add - You can now configure multiple installs of the games, and connecting to the server will 
+      automatically select the right version. The "<default>" installation will be used for any
+      servers running a version not explicitly set elsewhere.
+add - "Copy" option in the serverinfo list allows copying of selected serverinfo data.
+add - "Passworded" column displays as a padlock
+add - "Punkbuster" displays a punkbuster logo if it is enabled
+add - tooltips + hints for all menu items and toolbars
+chg - "Add server" dialog no longer has a separate box for port. Specify the host either with or 
+      without the port. The default port for the game will be assumed if none specified.
+chg - Some basic info pulled out separately in the "server details" dialog to make it clearer.
+chg - now queries more servers at once (20 at a time)
+chg - full servers are highlighted in red text
+chg - favourite servers are highlighted in blue
+chg - alternate rows have a shaded background, to make it easier to read
+chg - Columns headers now have arrows indicating sort direction (XP and above only) 
+chg - Player details list is now sortable.
+fix - "Server Details" dialog doesnt duplicate players in the list when repeatedly pressing refresh.
+fix - Corrected problem with menu labels being changed to random characters sometimes.
+fix - refreshing servers no longer rebuilds the tree on the left, which also cleared selections.
+fix - adding a server will trigger the view to be refreshed, displaying the new server if appropriate.
+
+
+1.0 - Initial version
