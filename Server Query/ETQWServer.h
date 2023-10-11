@@ -18,13 +18,15 @@
 class ETQWServer : public Doom3Server
 {
 public:
-	ETQWServer(const idStr &host, const unsigned short port);
+	ETQWServer(const idStr& host, const unsigned short port);
 	~ETQWServer(void);
 
 	virtual const char* GetBaseGame() const { return "base"; }
-	virtual const char *GetGametype() const;
+	virtual const char* GetGametype() const;
 
-	virtual void TranslateServerinfo(const idStr key, idStr &value);
-	virtual bool ParseResponse(void *rawPacket, int packetlen);
-	char *ParsePlayerData(char *pos, char *packetEnd, PlayerDetails *player);
+	virtual void TranslateServerinfo(const idStr key, idStr& value);
+	virtual bool ParseResponse(void* rawPacket, int packetlen);
+	char* ParsePlayerData(char* pos, char* packetEnd, PlayerDetails* player);
+
+	virtual const char* GetConnectString() const { return "+set net_autoConnectServer"; }
 };

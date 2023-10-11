@@ -352,10 +352,13 @@ void SupportedGame::SaveFilterTree()
 
 bool SupportedGame::Connect(const GameServer *gameServer) const
 {
-	// fixme
-//	bool isQ3LikeGame = (m_id == GAME_QUAKE3) || (m_id == GAME_ET);
-	bool isQ3LikeGame = true;
-	idStr gameName = gameServer->GetServerInfo().GetString( isQ3LikeGame ? "gamename" : "fs_game", gameServer->GetBaseGame());
+	idStr gameName = gameServer->GetServerInfo().GetString("fs_game", ""); // q4-style
+	if (gameName.empty())
+	{
+		// try q3 style
+		gameName = gameServer->GetServerInfo().GetString("gamename", gameServer->GetBaseGame());
+	}
+
 	if (gameName.ICmp(gameServer->GetBaseGame()) != 0)
 		gameName = va("+set fs_game %s", gameName.c_str());
 
@@ -369,10 +372,7 @@ bool SupportedGame::Connect(const GameServer *gameServer) const
 	const char *installDir = m_installDir.GetString(gameServer->GetVersion(), m_installDir.GetString(DEFAULT_GAME_VERSION));
 	const char *additionalParms = m_additionalParams.GetString(gameServer->GetVersion(), m_additionalParams.GetString(DEFAULT_GAME_VERSION));
 
-	//const char *connectStr = (m_id != GAME_ETQW) ? "+connect" : "+set net_autoConnectServer";
-	// fixme
-	const char *connectStr = "+connect";
-
+	const char *connectStr = gameServer->GetConnectString();
 	idStr passwordStr = gameServer->GetPassword().Length() > 0 ? va("+set password \"%s\"", gameServer->GetPassword().c_str()) : "";
 	idStr filePath = va("%s\\%s", installDir, exeName);
 	idStr commandLine = va("%s %s %s %s %s:%d %s", 
