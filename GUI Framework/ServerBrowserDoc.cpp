@@ -72,7 +72,11 @@ bool CServerBrowserDoc::LoadSupportedGames()
 {
 	CFileFind finder;
 	if (!finder.FindFile("SupportedGames.xml"))
+	{
+		AfxMessageBox("Failed to locate SupportedGames.xml - it should be alongside MAXBrowse.exe, but seems to be missing? No games can be configured in this state.");
+		// to be nice, we could embed a default SupportedGames.xml, but...
 		return false;
+	}
 
 	CoInitialize(NULL);
 
