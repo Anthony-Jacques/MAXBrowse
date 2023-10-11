@@ -64,6 +64,8 @@ public:
 
 	int GetNumPlayers() const { return m_players.Num() - m_numBots; }
 	int GetNumBots() const { return m_numBots; }
+
+	virtual const char* GetConnectString() const { return "+connect"; }
 protected:
 	GameServer(const idStr &host, const unsigned short port);
 
