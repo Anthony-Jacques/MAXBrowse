@@ -117,7 +117,7 @@
 	<game name="Quake 3" serversFile="Q3Servers.xml">
 		<installSettings defaultExe="quake3.exe" defaultPath="C:\Program Files\id Software\Quake III Arena\" installRegistrySection="2" installRegistryKey="SOFTWARE\id\Quake III Arena\" installRegistryValue="InstallPath"/>
 		<specialCvars pbcvar="sv_punkbuster" pwcvar="g_needpass" maxplayerscvar="sv_maxclients"/>
-		<query masterProtocol="Quake3Master" masterServer="monster.idsoftware.com" masterPort="27950" serverProtocol="Quake3Server" gamePort="27970" protocolVersion="68"/>
+		<query masterProtocol="Quake3Master" masterServer="master.ioquake3.org" masterPort="27950" serverProtocol="Quake3Server" gamePort="27970" protocolVersion="68"/>
 		<columns>
 			<column name="Nationality" cvar="nationality" type="0"/>
 			<column name="Gametype" cvar="g_gametype" type="0"/>
